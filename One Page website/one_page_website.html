@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang"en">
+    <head>
+		<meta charset="utf-8"> 
+        <title>Cat Adoption Nursery</title>
+		<link rel="stylesheet" href="css/one_page_website.css">
+	</head>
+	<body>
+	
+	<!---NAV-->
+	<div>
+		<div>
+			<ul>
+				<a href="#home">Home<li></a>
+				<a href="#cats">Our Cats<li></a>
+				<a href="#contact">Contact Us<li></a>
+				<a href="#video">Video<li></a>
+			</ul>
+		</div>
+	</div>
+	<!--END NAV-->
+	
+	<!---Home--->
+	
+	<div id="home">
+		<h2>Home</h2>
+		<p>Welcome to the Cat Adoption Center, where love and companionship await! Our mission is to connect kind-hearted individuals with adorable, loving cats who are eagerly waiting for their forever homes. Whether you’re looking for a playful kitten or a serene senior cat, we have a perfect match for you. Adopting a cat not only brings joy and warmth into your life but also gives these beautiful animals a second chance at happiness. Explore our site to meet our furry friends, learn about our seamless adoption process, and discover how you can make a difference. Together, let's create happy endings for our feline friends!</p>
+		<div>
+			<div>
+				<span>Cat Adoption Nursery</span>
+			</div>
+		</div>
+	</div>
+	<!--END HOME-->
+	
+	<!---Cat Pictures--->
+	
+
+	<section>
+		<style>
+			#cats {
+            background-color: #e8f5e9;
+        }
+		img {
+            max-width: 30%;
+            height: auto;
+        }
+		</style>
+		<div id="cats">
+			<h2>Our Cats</h2>
+			<div>
+			
+				<div class="row">
+					<div class="column">
+					  <img src=".\Images\Thumb\thumbnail_1_small.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+					</div>
+					<div class="column">
+					  <img src=".\Images\Thumb\thumbnail_8_small.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+					</div>
+					<div class="column">
+					  <img src=".\Images\Thumb\thumbnail_9_small.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+					</div>
+				</div>
+
+				<!-- The Modal/Lightbox -->
+				<div id="myModal" class="modal">
+				 <span class="close cursor" onclick="closeModal()">&times;</span>
+				 <div class="modal-content">
+  
+	  				<div class="mySlides">
+					 <div class="numbertext">1 / 3</div>
+					 <img src=".\Images\Thumb\thumbnail_1.jpg" style="width:100%">
+	  				</div>
+  
+	  				<div class="mySlides">
+					 <div class="numbertext">2 / 3</div>
+					 <img src=".\Images\Thumb\thumbnail_8.jpg" style="width:100%">
+	 				</div>
+  
+	 				<div class="mySlides">
+					 <div class="numbertext">3 / 3</div>
+					 <img src=".\Images\Thumb\thumbnail_9.jpg" style="width:100%">
+	  				</div>
+
+					<!-- Next/previous controls -->
+    				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    				<!-- Caption text -->
+    				<div class="caption-container">
+      				<p id="caption"></p>
+    				</div>
+
+					<!-- Thumbnail image controls -->
+					<div class="column">
+						<img class="demo" src=".\Images\Thumb\thumbnail_1.jpg" onclick="currentSlide(1)" alt="Cat 1">
+					</div>
+				
+					<div class="column">
+						<img class="demo" src=.\Images\Thumb\thumbnail_8.jpg" onclick="currentSlide(2)" alt="Cat 2">
+					</div>
+				
+					<div class="column">
+						<img class="demo" src=".\Images\Thumb\thumbnail_9.jpg" onclick="currentSlide(3)" alt="Cat 3">
+					</div>
+				</div>
+			</div>			
+			</div>
+		</div>
+	</section>
+    <!---END Cat Pictures--->
+	
+	<!---Contact--->
+	<section>
+	<div id="contact">
+		<div>
+			<h2>Contact Us</h2>
+			<div>
+			<h5><span>Your furry friends is just waiting for you.</span>
+				<br/>Reserve your Purr-fect friend today!
+			</h5>
+			<p>
+			Please contact us with your basic information below.
+			</p>
+				<div>
+					<form action="" method="post">
+						<input class="contact" type="text" value="Name">
+						<input class="contact" type="text" value="Email">
+						<input class="" type="num" value="phone">
+						<input class="contact" type="text" value="message-box">
+						<div class="form-spacer">
+							<label class="terms">Terms and Conditions Apply</label>
+						</div>
+						<div>
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	
+	<!---END CONTACT--->
+	
+	<!---Videos--->
+	
+	<section>
+		<div id="video">
+			<h2>Watch Funny Cats Video</h2>
+			<div>
+			<a href="https://www.youtube.com/embed/5dsGWM5XGdg">funny cat video</a>
+			</div>
+		</div>
+	</section>
+	
+	<!---END OF Videos--->
+	
+	<!---Footer--->
+	<div id="footer">
+	<p>2024 Cat Adoption Nursery</p>
+	</div>
+	
+	<!---Footer--->
+	<script src=".\js\one_page_website.js"></script>
+    </body>
+</html>
